@@ -4,9 +4,8 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
-            "name": "Debug current TypeScript file (requires ts-node)",
+            "name": "Debug current TypeScript file",
             "type": "node",
             "request": "launch",
             "runtimeArgs": [
@@ -16,17 +15,6 @@
             "args": [
                 "${file}"
             ],
-            "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
-            "skipFiles": [
-                "<node_internals>/**"
-            ]
-        },
-        {
-            "name": "Debug current JavaScript file",
-            "type": "node",
-            "request": "launch",
-            "program": "${file}",
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "skipFiles": [
